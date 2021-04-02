@@ -2,7 +2,7 @@
 
 ## If you dont care about text below
 
-**BASIC TL;DR: ** Call `Toastr / Toaster` from `Vuex Action` ! 
+**BASIC TL;DR:** Call `Toastr / Toaster` from `Vuex Action` ! 
 
 **A bit longer TL;DR:** I created `Toastr` callback with `Vue SweetAlter / vue-sweetalert2` (https://github.com/avil13/vue-sweetalert2)  to show off how can callbacks be handled from `Vuex Store Actions` without breaking state pattern. 
 
