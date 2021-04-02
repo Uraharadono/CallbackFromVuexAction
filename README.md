@@ -9,8 +9,10 @@
 ## Installation
 0.) Clone or copy repo
 
-    	npm install
-        npm run build 
+1.) `npm install`
+
+2.) `npm run build`
+
 3.) Go to **About** page for instant demo, or to **Todo** page to see how this can be implemented into already existing project. 
 In this case it is for [Vuex Todo Manager](https://github.com/bradtraversy/vuex_todo_manager  "Vuex Todo Manager") by [bradtraversy](https://github.com/bradtraversy "bradtraversy"). 
 Thanks mate for your help with learning Vuex.
