@@ -1,6 +1,6 @@
 # Toaster (or any other callback) from Vuex store
 
-## If you dont care about text below
+## How not to break state machine pattern and still call toaster/alert/popup from Vuex Action
 
 **BASIC TL;DR:** Call `Toastr / Toaster` from `Vuex Action` ! 
 
