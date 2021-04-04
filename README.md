@@ -4,7 +4,7 @@
 
 **BASIC TL;DR:** Call `Toastr / Toaster` from `Vuex Action` ! 
 
-**A bit longer TL;DR:** I created `Toastr` callback with `Vue SweetAlter / vue-sweetalert2` (https://github.com/avil13/vue-sweetalert2)  to show off how can callbacks be handled from `Vuex Store Actions` without breaking state pattern. 
+**A bit longer TL;DR:** I created `Toastr` callback with `Vue SweetAlter / vue-sweetalert2` (https://github.com/avil13/vue-sweetalert2)  to show off how can callbacks be handled from `Vuex Store Actions` without breaking state machine pattern. 
 
 ## Installation
 0.) Clone or copy repo
@@ -40,7 +40,8 @@ Or in my case :
 
 	this._vm.$swal('Hello Vue world!!!');
 
-## HOWEVER! THIS IS ANTI PATTERN !
+## HOWEVER! THIS IS ANTI PATTERN ! 
+Will break our state machine pattern.
 
 ### Getting somewhere 
 I tried to use something like [THIS](https://forum.vuejs.org/t/giving-feedback-from-vuex-async-actions/45200/5m-vuex-async-actions/45200/5 "THIS"), but unfortunately I could not benefit from it. I want total control in case `Ajax` call has different outcomes.
